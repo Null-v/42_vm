@@ -16,3 +16,9 @@ Some useful tips to create a virtual machine with all the tools you need to work
 choose xubuntu for a fair compromise between performance and features.
 
 ## Tools
+
+- Install Vim
+```
+sudo apt-get install vim
+```
+- 
