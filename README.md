@@ -42,3 +42,7 @@ sudo apt-get install zsh-autosuggestions
 sudo apt-get install zsh-syntax-highlighting
 cd && mv .zshrc .zshrc_bkp && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/.zshrc && exit
 ```
+- Install gcc:
+```
+sudo apt-get install gcc
+```
