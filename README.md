@@ -42,7 +42,8 @@ sudo apt-get install zsh-autosuggestions
 sudo apt-get install zsh-syntax-highlighting
 cd && mv .zshrc .zshrc_bkp && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/.zshrc && exit
 sudo apt-get install qterminal
-cd ~/.config/qterminal.org && mv .qterminal.ini .qterminal_bkp && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/qterminal.ini && exit
+cd ~/.config/qterminal.org && mv qterminal.ini qterminal_bkp.ini && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/qterminal.ini && exit
+cd /usr/share/qtermwidget5/color-schemes && sudo curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/Kali-Dark.colorscheme && exit
 ```
 - Install gcc:
 ```
