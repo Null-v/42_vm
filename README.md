@@ -21,6 +21,14 @@ choose xubuntu for a fair compromise between performance and features.
 ```
 sudo apt-get install vim
 ```
+- Install git:
+```
+sudo apt-get install git
+```
+- Install curl:
+```
+sudo apt-get install curl
+```
 - Install Zsh and set as default login shell for the current user:
 ```
 sudo apt-get install zsh
@@ -28,8 +36,9 @@ sudo usermod -s $(which zsh) $(whoami)
 ```
 - Run zsh and press the number key 2 and ZSH should create a new ~/.zshrc configuration file with the recommended settings, then reboot the system.
 
-- Customize zsh :
+- Customize zsh with the config of the repository:
 ```
 sudo apt-get install zsh-autosuggestions
 sudo apt-get install zsh-syntax-highlighting
+cd && mv .zshrc .zshrc_bkp && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/.zshrc && exit
 ```
