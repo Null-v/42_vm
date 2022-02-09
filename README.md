@@ -17,8 +17,19 @@ choose xubuntu for a fair compromise between performance and features.
 
 ## Tools
 
-- Install Vim
+- Install Vim:
 ```
 sudo apt-get install vim
 ```
-- 
+- Install Zsh and set as default login shell for the current user:
+```
+sudo apt-get install zsh
+sudo usermod -s $(which zsh) $(whoami)
+```
+- Run zsh and press the number key 2 and ZSH should create a new ~/.zshrc configuration file with the recommended settings, then reboot the system.
+
+- Customize zsh :
+```
+sudo apt-get install zsh-autosuggestions
+sudo apt-get install zsh-syntax-highlighting
+```
