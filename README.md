@@ -36,15 +36,12 @@ sudo usermod -s $(which zsh) $(whoami)
 ```
 - Run zsh and press the number key 2 and ZSH should create a new ~/.zshrc configuration file with the recommended settings, then reboot the system.
 
-- Customize zsh with the config of the repository:
+- Customize zsh with [Oh My Zsh](https://ohmyz.sh):
 ```
-sudo apt-get install zsh-autosuggestions
-sudo apt-get install zsh-syntax-highlighting
-cd && mv .zshrc .zshrc_bkp && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/.zshrc && exit
-sudo apt-get install qterminal
-cd ~/.config/qterminal.org && mv qterminal.ini qterminal_bkp.ini && curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/qterminal.ini && exit
-cd /usr/share/qtermwidget5/color-schemes && sudo curl -O https://raw.githubusercontent.com/Null-v/42_vm/main/Kali-Dark.colorscheme && exit
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+NOTE: the installer will rename an existing .zshrc file to .zshrc.pre-oh-my-zsh.
+
 - Install gcc:
 ```
 sudo apt-get install gcc
