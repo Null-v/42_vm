@@ -1,2 +1,0 @@
-- [ ] gcc make perl
-- [ ] qt missing ?
