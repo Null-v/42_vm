@@ -60,6 +60,13 @@ sudo usermod -s $(which zsh) $(whoami)
      - Download and configure [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
      - Download and configure [zsh-syntax-higlighting](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
+- Install the VirtualBox Guest Additions:
+  ```
+  sudo apt update
+  sudo apt install build-essential dkms linux-headers-$(uname -r)
+  ```
+  Mount the Guest Additions CD Image e run the script for Linux, then reboot
+
 - Install gcc:
   ```
   sudo apt-get install gcc
