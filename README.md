@@ -46,6 +46,19 @@ sudo usermod -s $(which zsh) $(whoami)
     - Set [agnoster](https://github.com/agnoster/agnoster-zsh-theme) as a default theme:
     
       `sed -i 's/ZSH_THEME=".*"/ZSH_THEME="agnoster"/' ~/.zshrc`
+      
+      **NOTE: In all likelihood, you will need to install a Powerline-patched font for this theme to render correctly:**
+      
+      `sudo apt-get install fonts-powerline`
+      
+     - Download and configure [Dracula Theme](https://draculatheme.com/xfce4-terminal):
+     
+        After put the file in the specified folder:
+        
+        Open "Xfce Terminal Settings" --> "Colors" --> "Load Presets.." --> Select Dracula
+        
+     - Download and configure [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+     - Download and configure [zsh-syntax-higlighting](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
 - Install gcc:
 ```
