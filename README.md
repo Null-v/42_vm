@@ -61,9 +61,9 @@ sudo usermod -s $(which zsh) $(whoami)
      - Download and configure [zsh-syntax-higlighting](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 
 - Install gcc:
-```
-sudo apt-get install gcc
-```
+  ```
+  sudo apt-get install gcc
+  ```
 - Some Info of the gcc configuration of the Mac on the cluster:
   - [Output](./gcc_define_cluster.txt) of:
   ```
