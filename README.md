@@ -36,11 +36,16 @@ sudo usermod -s $(which zsh) $(whoami)
 ```
 - Run zsh and press the number key 2 and ZSH should create a new ~/.zshrc configuration file with the recommended settings, then reboot the system.
 
-- Customize zsh with [Oh My Zsh](https://ohmyz.sh):
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-NOTE: the installer will rename an existing .zshrc file to .zshrc.pre-oh-my-zsh.
+- Customize Zsh with [Oh My Zsh](https://ohmyz.sh):
+
+  `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+  **NOTE: the installer will rename an existing `.zshrc` file to `.zshrc.pre-oh-my-zsh`.**
+  
+ - It is possible to customize Zsh more thoroughly:
+    - Set [agnoster](https://github.com/agnoster/agnoster-zsh-theme) as a default theme:
+    
+      `sed -i 's/ZSH_THEME=".*"/ZSH_THEME="agnoster"/' ~/.zshrc`
 
 - Install gcc:
 ```
