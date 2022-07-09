@@ -3,6 +3,13 @@ Recreate the workspace of the 42 in a vm
 
 Some useful tips to create a virtual machine with all the tools you need to work on projects of the 42 school wherever you want.
 
+## Summary
+
+* [Virtualization](#virtualization)
+* [Operating System](#operating-system)
+* [Tools](#tools)
+
+
 ## Virtualization
 
 - Oracle VM VirtualBox : https://www.virtualbox.org
