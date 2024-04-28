@@ -22,6 +22,8 @@ Some useful tips to create a virtual machine with all the tools you need to work
 
 choose xubuntu for a fair compromise between performance and features.
 
+Fell free to use this [banner](./vm_description.txt) to remember the username and password chosen.
+
 ## Tools
 
 - Install Vim:
@@ -90,7 +92,7 @@ sudo usermod -s $(which zsh) $(whoami)
     - [Output](./gcc_version_macos.txt) of:
       
       ```
-      gcc -v
+      gcc -v 2> gcc_version_macos.txt
       ```
 
   - **Mac with Ubuntu LTS:**
@@ -103,5 +105,5 @@ sudo usermod -s $(which zsh) $(whoami)
     - [Output](./gcc_version_ubuntu.txt) of:
       
       ```
-      gcc -v
+      gcc -v 2> gcc_version_ubuntu.txt
       ``` 
