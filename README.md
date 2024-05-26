@@ -106,4 +106,15 @@ sudo usermod -s $(which zsh) $(whoami)
       
       ```
       gcc -v 2> gcc_version_ubuntu.txt
-      ``` 
+      ```
+      
+## 42 Tools
+
+- **Install Norminette:**
+  
+  Follow the instruction of the official github repository [here](https://github.com/42School/norminette)
+
+- **Install the 42 standard header for vim editor:**
+  
+  Follow the instruction of the official github repository [here](https://github.com/42Paris/42header)
+  
