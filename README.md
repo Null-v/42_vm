@@ -67,7 +67,7 @@ sudo usermod -s $(which zsh) $(whoami)
         Open "Xfce Terminal Settings" --> "Colors" --> "Load Presets.." --> Select Dracula
         
      - Download and configure [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
-     - Download and configure [zsh-syntax-higlighting](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+     - Download and configure [zsh-syntax-higlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 
 - Install the VirtualBox Guest Additions:
   ```
